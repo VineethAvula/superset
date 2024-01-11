@@ -73,7 +73,6 @@ const App = () => (
     <ScrollToTop />
     <LocationPathnameLogger />
     <RootContextProviders>
-      <GlobalStyles />
       <Menu
         data={bootstrapData.common.menu_data}
         isFrontendRoute={isFrontendRoute}
